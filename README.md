@@ -29,9 +29,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-    '.map' populates a new empty array by pushing automatically, while '.forEach' does not. With forEach you need to create an empty array to push to!
+    '.map' populates a new empty array by pushing automatically, while '.forEach' does not. With forEach you need to create an empty array to push to.
 
 2. What is the difference between a function and a method?
+    Both are functions, but a method is a function that is a property of an object.
 
 3. What is closure?
 
