@@ -47,6 +47,7 @@ Edit this document to include your answers after each question. Make sure to lea
     4: Explicit Binding: The methods '.call', '.apply', and '.bind' can be used to explicityly define 'this' and override the constructor objects
 
 5. Why do we need super() in an extended class?
+    The super() function is another piece of inheritance, and binds the child's prototypes to the parent.
 
 ## Project Set up
 
