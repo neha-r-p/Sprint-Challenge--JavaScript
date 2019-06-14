@@ -35,8 +35,16 @@ Edit this document to include your answers after each question. Make sure to lea
     Both are functions, but a method is a function that is a property of an object.
 
 3. What is closure?
+    Closure is the ability for a nested child function to access variables from parent, grandparent, etc during it's execution. This is a one way street, and the parent cannot access the child's variables when it is executed.
 
 4. Describe the four rules of the 'this' keyword.
+    1: Window/global object binding: 'this' will be pointing to the console object. eg in the browser it will be the whole browser JavaScript
+
+    2: Implicit binding: When a function is called by a preceding dot, 'this' refers to the object before/to the left of the dot.
+
+    3: 'new' Binding: A constructor function, which is a function that creates a new object, is used. 'this' refers to the constructor function, and the keyword 'new' needs to be used to create a new object when the function is called
+
+    4: Explicit Binding: The methods '.call', '.apply', and '.bind' can be used to explicityly define 'this' and override the constructor objects
 
 5. Why do we need super() in an extended class?
 
